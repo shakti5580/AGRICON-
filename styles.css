@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    max-height: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.login-start {
+    display: flex;
+    gap: 10px;
+}
+
+.login, .start-selling {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login {
+    color: #007bff;
+}
+
+.start-selling {
+    background-color: #ffeb3b;
+    color: #000;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.benefit {
+    width: 18%;
+    text-align: center;
+}
+
+.benefit img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.seller-success-stories {
+    background-color: #f1f1f1;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.seller-success-stories h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.story .profile-pic img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.story-text h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.story-text p {
+    font-size: 16px;
+    color: #555;
+}

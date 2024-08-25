@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricon Farmer Onboarding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="steps">
+            <div class="step active">
+                <span class="step-number">✔</span>
+                <span class="step-title">EMAIL ID & GST</span>
+            </div>
+            <div class="step">
+                <span class="step-number">✔</span>
+                <span class="step-title">PASSWORD CREATION</span>
+            </div>
+            <div class="step">
+                <span class="step-number">✔</span>
+                <span class="step-title">ONBOARDING DASHBOARD</span>
+            </div>
+        </div>
+
+        <form class="onboarding-form">
+            <div class="form-group">
+                <label for="mobile-number">Enter Mobile Number <span class="required">*</span></label>
+                <div class="input-with-button">
+                    <input type="text" id="mobile-number" placeholder="Enter Mobile Number">
+                    <button type="button" disabled>Send OTP</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email-id">Email ID <span class="required">*</span></label>
+                <input type="email" id="email-id" placeholder="Email ID">
+            </div>
+
+            <div class="form-group">
+                <label>What are you looking to sell on Flipkart?</label>
+                <div class="sell-options">
+                    <button type="button" class="sell-option active">All Categories</button>
+                    <button type="button" class="sell-option">Only Books <span>(PAN is mandatory)</span></button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="gstin">Enter GSTIN</label>
+                <input type="text" id="gstin" placeholder="Enter GSTIN">
+            </div>
+
+            <p class="info-text">GSTIN is required to sell products on Agricon. You can also share it in the final step.</p>
+
+            <div class="agreement">
+                <p>By continuing, I agree to Agricon's <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></p>
+            </div>
+
+            <button type="submit" class="submit-button">Register & Continue →</button>
+        </form>
+    </div>
+</body>
+</html>
